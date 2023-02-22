@@ -1,0 +1,35 @@
+.div_banner_container {
+    display: flex;
+    height: 223px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div_banner_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Banner_home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    border-radius: 25px;
+}
+
+.div_banner_about {
+    background-image: url(../assets/Banner_about.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    border-radius: 25px;
+}
+
+.Banner_title {   
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 48px;
+}
