@@ -1,12 +1,17 @@
+import '../../styles/Home.css'
 import Banner from '../../components/Banner'
-import Banner_image from '../../assets/Banner_home.png'
+import CardsList from '../../components/CardsList'
+import Header from '../../components/Header'
+
 function Home() {
-  return <div>
+  return <div className='div_home-wrapper'>
+            <Header />
              <Banner>
-                <div className='div_banner_home' style={{ backgroundImage: `url(${Banner_image})`, width:'100%'}}>
+                <div className='div_banner_home'>
                 <span className='Banner_title'>Chez vous, partout et ailleurs</span>
                 </div>
             </Banner>
+            <CardsList />
          </div>
   
 }

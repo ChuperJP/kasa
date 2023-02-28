@@ -13,3 +13,13 @@ footer p {
     margin-top: 40px;
     font-size: 24px;
 }
+
+@media all and (max-width: 375px) {
+    footer {
+        justify-content: center;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}

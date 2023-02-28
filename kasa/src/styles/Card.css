@@ -1,0 +1,42 @@
+.div_card {
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 13%;
+    height: 340px;
+    width: 340px;
+}
+
+.logement_cover {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #ffffff00 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+}
+
+.logement_title {
+    position: absolute;
+    z-index: 1;
+    bottom: 3%;
+    left: 5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media all and (max-width: 375px) {
+    .div_card {
+
+        height: 255px;
+    }
+
+}
