@@ -1,0 +1,53 @@
+.div_carousel-wrapper {
+    position: relative;
+    height: 415px;
+    border-radius: 25px;
+    margin-bottom: 2%;
+}
+
+.carousel_image {
+    position: relative;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.arrow {
+    position: absolute;
+    height: 80px;
+    cursor: pointer;
+}
+
+.arrow_left {
+    left: 2%;
+    top: 43%;
+}
+
+.arrow_right {
+    right: 2%;
+    top: 43%;
+    transform: rotate(180deg);
+}
+
+.div_bulletPoint {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media all and (max-width: 768px) {
+    .div_carousel-wrapper {
+        height: 255px;
+    }
+
+    .arrow {
+        height: 20px;
+    }
+
+}
