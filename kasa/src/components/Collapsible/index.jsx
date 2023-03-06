@@ -18,10 +18,10 @@ function Collapsible({ title, text}) {
                 <h2>{ title }</h2>
                 <img src={ Chevron } alt='Chevron' className={!isOpen ? 'chevron_open' : undefined} />
             </div>
-            <div className='collapse_text-visible' style={{
+            <div className='collapse_text' style={{
                 display: isOpen ? 'block' : 'none'
             }}>
-                <p>{ text }</p>
+            { text }
             </div>
         </div>
     )

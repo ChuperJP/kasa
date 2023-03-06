@@ -1,18 +1,18 @@
 import '../../styles/CardsList.css'
 import { Link } from 'react-router-dom'
 import Card from '../Card';
-import logement from '../../datas/logements.json'
+import logements from '../../datas/logements.json'
 
 
 
 function CardsList() {
     return (
         <section className="logement_list">
-        {logement.map((logement) => {
+        {logements.map((logements) => {
           return (
-            <article key={logement.id}>
-              <Link to={`/logement/${logement.id}`}>
-                <Card cover={logement.cover} title={logement.title} />
+            <article key={logements.id}>
+              <Link to={`/logement/${logements.id}`}>
+                <Card cover={logements.cover} title={logements.title} />
               </Link>
             </article>
           );

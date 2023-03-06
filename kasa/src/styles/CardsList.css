@@ -5,20 +5,24 @@
     flex-wrap: wrap;
     gap: 3%;
 
-    max-width: 1440px;
-
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 50px;
 
     background: #F7F7F7;
     border-radius: 25px;
 }
 
-@media all and (max-width: 375px) {
+.logement_list article {
+    min-width: 340px;
+    flex: 1;
+}
+
+@media all and (max-width: 768px) {
     .logement_list {
         margin-top: -110px;
         background: none;
+    }
+
+    .logement_list article {
+        min-width: 335px;
     }
 }
