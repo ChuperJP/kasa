@@ -1,0 +1,107 @@
+
+.div_logement-wrapper {
+    max-width: 1240px;
+    margin: auto;
+
+    margin-bottom: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div_information-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logementInformation_title {
+    margin: 0;
+    padding-bottom: 1%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF6060;
+}
+
+.logementInformation_location {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    margin: 0;
+}
+
+.tags-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 5%;
+    width: fit-content;
+}
+
+
+/* HOST */
+
+.div_host-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* COLLAPSE */
+
+.div_description-wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+
+    margin-top: 3%;
+
+}
+
+.description_collapse {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.equipement_collapse {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+@media all and (max-width: 768px) {
+
+    .div_information-wrapper {
+        flex-direction: column;
+    }
+
+    .logementInformation_title {
+        font-size: 18px;
+    }
+
+    .logementInformation_location {
+        font-size: 14px;
+    }
+
+
+    .div_host-wrapper {
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .div_description-wrapper {
+        flex-direction: column;
+    }
+
+
+
+}

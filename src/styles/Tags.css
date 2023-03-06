@@ -1,0 +1,30 @@
+.div_tag {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background: #FF6060;
+    border-radius: 10px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.div_tag p {
+    white-space: nowrap;
+    margin: 0;
+    padding: 3px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+
+@media all and (max-width: 768px) {
+
+    .div_tag p {
+        font-size: 10px;
+    }
+
+}
