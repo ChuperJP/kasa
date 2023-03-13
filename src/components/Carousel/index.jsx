@@ -22,7 +22,8 @@ function Carousel({ carousel_image }) {
             style={{display: carousel_image.length > 1 ? 'block' : 'none' }}/>
             <img className='arrow arrow_right' src={arrow} alt='carousel_arrow-right' onClick={nextImage} 
             style={{display: carousel_image.length > 1 ? 'block' : 'none' }}/>
-            <div className='div_bulletPoint'>
+            <div className='div_bulletPoint' 
+            style={{display: carousel_image.length === 1 ? 'none' : null }}>
                 {imageIndex + 1}/{carousel_image.length}
             </div>
         </div>

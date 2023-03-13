@@ -50,4 +50,8 @@
         height: 20px;
     }
 
+    .div_bulletPoint {
+        display: none;
+    }
+
 }
